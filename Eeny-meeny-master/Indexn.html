@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="javascript/tabController.js"></script>
+</head>
+<body>
+
+<div class="headerBar">
+    <img class="burgerImg" src="resources/menu-icon.png">
+    <p class="headerTitle">Eeny Meeny Miny Moe</p>
+</div>
+
+<div class="tabMenu">
+    <ul class="tabList">
+        <li class="tabItem" onclick="takePicTab()"><a class="active" id="tab1" href="#takepic">Take Picture</a></li>
+        <li class="tabItem" onclick="ChooseExisting()"><a class="inactive" id="tab2" href="#ChooseExisting">ChooseExisting</a></li>
+        <li class="tabItem" onclick="helpTab()"><a class="inactive" id="tab3" href="#help">Help</a></li>
+    </ul>
+</div>
+
+<div class= "CheckBox">
+
+    <form>
+        <input type="checkbox" name="checkbox1" value="person1" id="person1"><label for="person1"> Check if want person 1</label>
+    </form>
+
+    <form>
+        <input type="checkbox" name="checkbox2" value="person2" id="person2"><label for="person2"> Check if want person 2</label>
+    </form>
+
+    <form>
+        <input type="checkbox" name="checkbox3" value="person3" id="person3"><label for="person3"> Check if want person 3</label>
+    </form>
+
+</div>
+
+
+</body>
+</html>
+
